@@ -1,0 +1,94 @@
+@media (min-width: 768px) and (max-width: 999px) {
+    .servicos-box {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        height: 100vh;
+    }
+    
+    /*Widget 1*/
+    .top {
+        width: 100%;
+        height: 40vh;
+        flex-direction: row;
+    }
+
+    .user {
+        width: 70%;
+        height: 100%;
+    }
+
+    .info-user h1 {
+        font-size: 1.8rem;
+    }
+    
+    .info-user span {
+        font-size: 1.5rem;
+    }
+    
+    .info-user p {
+        font-size: 1.2rem;
+    }
+
+    .projeto {
+        width: 30%;
+        height: 100%;
+    }
+
+    /*Widget 2*/
+    .center {
+        width: 100%;
+        height: 10vh;
+        flex-direction: row;
+    }
+
+    .redes-sociais {
+        width: 30%;
+        height: 100%;
+    }
+
+    .skills {
+        width: 70%;
+        height: 100%;
+    }
+    
+    /*Widget 3*/
+    .bottom {
+        width: 100%;
+        height: 40vh;
+        flex-direction: row-reverse;
+    }
+
+    .contato {
+        width: 30%;
+        height: 100%;
+    }
+
+    .servicos {
+        width: 70%;
+        height: 100%;
+    }
+
+    .servicos-box {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .item-servico {
+        width: 240px;
+        height: 240px;
+        border-radius: 10px;
+    }
+    
+    .item-servico i {
+        font-size: 2.5rem;
+    }
+
+    .item-servico span {
+        font-size: 1rem;
+    }
+
+}
